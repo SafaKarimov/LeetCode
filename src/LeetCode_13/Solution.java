@@ -18,6 +18,7 @@ class Solution {
             if (c == 'V' || c == 'X') {
                 if (i > 0 && s.charAt(i - 1) == 'I')
                     num -= 2;
+
             }
             if (c == 'L' || c == 'C') {
                 if (i > 0 && s.charAt(i - 1) == 'X')
